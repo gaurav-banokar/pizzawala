@@ -1,0 +1,31 @@
+.about {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+
+    > h1 {
+        font: 400 2rem "sans-serif";
+        margin: 40px 15px;
+    }
+    > div {
+        width: 50%;
+        border-bottom: 2px solid black;
+    }
+    > article{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+}
+.imageOne {
+    width: 30rem;
+    height: 25rem;
+    margin-left: 2rem;
+}
+.imageTwo {
+    width: 15rem;
+    height: 15rem;
+    margin: 5rem 0 0 4rem;
+}
